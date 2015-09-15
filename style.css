@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+}
+#page, #page2, #page3, #page4, #page5, #page5, #page6, #page7 {
+
+background: url(../images/bgdzooapp150x150.jpg) repeat;
+padding-bottom: 90px;
+}
+
+.heading {
+		display: none;
+}
+
+.logo {
+	width: auto;
+	height: 216px;
+	background: url(../images/headerzooapp.gif) top no-repeat;
+	margin: auto;	
+}
+
+.header {
+	width: 100%;
+	height: 216px;
+	background: #f8d219;
+	margin: 0;
+	padding: 0;	
+}
+
+#page .mainmenu {
+	margin: 5px;
+	padding: 0;
+}
+
+#page .mainmenu li {
+	background: none;
+	border: none;
+}
+
+#page .mainmenu li a {
+	background: rgba(102,204,255,.6);
+	display: block;
+	border-radius: 10px;
+	margin-bottom: 5px;
+}
+
+#page .mainmenu li a:hover {
+	background: rgba(102,204,255,.9);	
+}
+	
+#page .fotterbg, #page2 .fotterbg, #page3 .fotterbg, #page4 .fotterbg, #page5 .fotterbg, #page6 .fotterbg, #page7 .fotterbg {
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	background: url(../images/fotterbg.jpg);	
+	text-align: center;
+	border: 0;
+	bottom: 0;
+	position: absolute;
+}
+	
+#page2 .bodycopy, #page3 .bodycopy, #page4 .bodycopy, #page5 .bodycopy, #page6 .bodycopy, #page7 .bodycopy {		
+		background: rgba(102,204,255,.6);
+		border-radius: 5px;
+		margin: 10px;
+		padding: 10px;
+}
+
+h2 {
+	text-align: center;
+	margin: auto;
+	color: #292929;
+	border-bottom: 1px #292929;
+}
+
+.player {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto; 
+	padding: 2em		
+}
+	
+	
